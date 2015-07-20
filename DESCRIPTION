@@ -1,0 +1,9 @@
+Package: orientmandible
+Title: Processes 3D Point Clouds of Human Mandibles
+Version: 0.5
+Authors@R: person("Alice Jenny", "Butcher", email = "alice@butcher.name", role = c("aut", "cre"))
+Description: This package, created as part of an MSc thesis in the ViSA project at Cranfield University, uses geometric analysis to align and "slice" 3D point clouds of human mandibles.
+Depends: R (>= 3.2.1)
+License: Creative Commons Attribution 4.0 International License
+LazyData: true
+Imports: stringr, openxlsx, rJava, Morpho, Rvcg
