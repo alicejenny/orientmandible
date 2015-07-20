@@ -174,17 +174,6 @@ align2 <- function(sample, filename, folder, slice = TRUE, saveplots = TRUE) {
   if (slice == TRUE){
     setWinProgressBar(pb, 2, label = paste("Slicing", mandiblename))
 
-    # base
-    if (saveplots == TRUE){
-      png(filename = paste(plotpath, mandiblename, "-base", ".png", sep = ""), width = 1000, height = 1000)
-    }
-    plot.new()
-    par(mfrow=c(1,3))
-    baseslice(finish, filename, folder)
-    if (saveplots == TRUE){
-      dev.off()
-    }
-
     # gonial areas
     if (saveplots == TRUE){
       png(filename = paste(plotpath, mandiblename, "-gonialarea", ".png", sep = ""), width = 1000, height = 1000)
