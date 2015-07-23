@@ -7,5 +7,5 @@ Depends: R (>= 3.2.1)
 License: Creative Commons Attribution 4.0 International License
 LazyData: true
 Imports: stringr, openxlsx, rJava, Morpho, Rvcg
-Year: 2015
+Date: 2015
 URL: https://github.com/alicejenny/orientmandible
